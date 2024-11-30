@@ -1,0 +1,111 @@
+// app global css in SCSS form
+.loginBackground {
+	background-image: linear-gradient(rgb(182,201,196), rgb(197,198,182));
+}
+
+.colorImputLogin
+		.q-field__control {
+			background-color: white !important;
+            box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+		}
+	
+
+        .colorImputLogin
+		.q-field__control::before {
+			background-color: rgb(170, 170, 170) !important;
+            box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+		}
+.shadow{
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.textShadow{
+    text-shadow: 0px 2px 2px rgb(0 0 0 / 33%);
+}
+
+
+.q-calendar{
+	background-image: linear-gradient(rgb(182,201,196), rgb(197,198,182)) !important;
+}
+
+.q-calendar-month__day{
+	border-radius: 5px;
+	border: 1px solid !important;
+	background-color: rgb(223, 223, 223) !important;
+}
+
+.q-calendar-month__week--wrapper{
+	margin-top: 5px;
+	border: none !important;
+}
+
+.q-calendar__bordered{
+	border: none !important;
+}
+
+.q-calendar-month__head{
+	background-image: linear-gradient(rgb(182,201,196), rgb(197, 197, 193)) !important;
+}
+
+.q-calendar-month__head--weekday{
+	border-radius: 5px;
+	border: 1px solid !important;
+	background-color: rgb(223, 223, 223) !important;
+}
+
+.calendarButtons{
+	display: flex;
+	justify-content: space-between;
+	margin: 10px;
+}
+
+.calendarButonColor{
+	background-color: rgb(223, 223, 223) !important;
+}
+
+.closePageButton{
+	justify-content: end;
+    display: flex;
+    width: 100%;
+    height: 30px;
+}
+
+.listItemEvent{
+	border: 1px solid #606c71;
+	border-radius: 5px;
+}
+
+.titelEvent{
+	display: flex;
+    justify-content: center;
+    color: white;
+    padding: 9px;
+}
+
+.botonDesplegableBlanco 
+		.cursor-pointer{
+			color: white !important;
+}
+
+.itemLoadSheet{
+	border: 1px solid #606c71; 
+	border-radius: 6px; 
+	margin-bottom: 4px;
+	background-color: rgb(159 168 169);
+}
+
+.itemLoadSheetOk{
+	border: 1px solid #2a5033; 
+	border-radius: 6px; 
+	margin-bottom: 4px;
+	background-color: #4e995f;
+}
+
+.tableNew{
+	margin-left: -20px;
+	margin-right: -20px;
+}
+
+.tableNew .q-table th, .tableNew .q-table td {
+	padding: 0 !important;
+}
